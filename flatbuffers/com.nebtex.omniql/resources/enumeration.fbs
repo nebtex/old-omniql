@@ -1,0 +1,10 @@
+namespace com.nebtex.omniql.resource;
+
+table EnumerationSpec{
+    type: [io.omniql.BasicTypes];
+}
+
+table Enumeration {
+  metadata: com.nebtex.omniql.omniqlMetada
+  spec: EnumerationSpec
+}

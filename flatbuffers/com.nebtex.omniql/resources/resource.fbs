@@ -2,17 +2,16 @@ namespace com.nebtex.omniql.resource;
 
 table Field{
     name: string(required);
-    type: io.omniql.Types;
-    schema: 
+    type: io.omniql.Types; 
     description: string;
     required: bool;
-    allowEmptyValue;
-    default:;
+    allow_empty_value: bool;
 }
 
 
 table ResourceSpec{
     fields: [io.omniql.Field];
+    parent_resource: string;
 }
 
 table Resource {
