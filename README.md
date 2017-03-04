@@ -47,11 +47,12 @@ tings that should be ready for the first alpha release
 
  - [V1Alpha.Application](V1Alpha/Application.md)
  - [V1Alpha.Enumeration](V1Alpha/Enumeration.md)
- - [V1Alpha.Enumeration](V1Alpha/EnumerationItem.md)
- - [V1Alpha.Resource](V1Alpha/ResourceStruct.md)
- - [V1Alpha.Resource](V1Alpha/ResourceTable.md)
+ - [V1Alpha.EnumerationItem](V1Alpha/EnumerationItem.md)
+ - [V1Alpha.Struct](V1Alpha/Struct.md)
+ - [V1Alpha.Resource](V1Alpha/Resource.md)
  - [V1Alpha.Command](V1Alpha/Command.md)
  - [V1Alpha.Query](V1Alpha/Query.md)
+ - [V1Alpha.Query](V1Alpha/Subscription.md)
  - [V1Alpha.Component](V1Alpha/Component.md)
 
 
@@ -59,13 +60,10 @@ tings that should be ready for the first alpha release
 
 things that would be  nice to have 
 
+ - [V1Alpha.Pipelines](V1Alpha/Pipelines.md)
  - [V1Alpha.Branch](V1Next/branch.md)
  - [V1Alpha.Environment](V1Alpha/Environment.md)
  - [V1Alpha.Version](V1Alpha/Version.md)
-
-
-
-
 
 ### Omniql APp
    Omniql application on top of omniql definition that allow to manage resources by federation, orgs , team and users
