@@ -17,7 +17,6 @@ what omniql should offer:
 plan:
  - do an initial version, working
  - build omniql on omniql
- - when we have a decent version open-source with the appropriate licence. where we can maintain the right to patent, and make money
  
 clients:
  - large organization that has many team of different backgrounds
