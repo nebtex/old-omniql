@@ -14,7 +14,7 @@ Keys aspect:
 what omniql should offer:
  - creation of schemas in a nice interface (api and ui)
  - auto-generation of code for different programming languages and provide the tooling to do this
- - 
+ - autogenaration of entiry docker containar that can handle well know patterns like crud, subscriptions, permissions
 
 plan:
  - do an initial version, working
