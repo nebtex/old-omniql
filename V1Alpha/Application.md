@@ -28,7 +28,7 @@ name
 
 ## limitations:
 
-domain names always should end with .*, this means that the application will owner of all the subdomain of any top level on that host, 
+domain names always should end with a wildcard `.*`, this means that the application will owner of all the subdomain of any top level on that host,
 if the user want to host many application on x subdomain it should declared the application in the subdomain level required 
 
 
