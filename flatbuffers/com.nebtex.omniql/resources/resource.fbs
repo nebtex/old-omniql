@@ -1,0 +1,21 @@
+namespace com.nebtex.omniql.resource;
+
+table Field{
+    name: string(required);
+    type: io.omniql.Types;
+    schema: 
+    description: string;
+    required: bool;
+    allowEmptyValue;
+    default:;
+}
+
+
+table ResourceSpec{
+    fields: [io.omniql.Field];
+}
+
+table Resource {
+  metadata: com.nebtex.omniql.omniqlMetada
+  spec: ResourceSpec
+}

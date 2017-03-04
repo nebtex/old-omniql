@@ -1,0 +1,10 @@
+namespace com.nebtex.omniql.application;
+
+table ApplicationSpec{
+    reverseHost: string(required);
+}
+
+table Application {
+  metadata: com.nebtex.omniql.omniqlMetada
+  spec: ApplicationSpec
+}
