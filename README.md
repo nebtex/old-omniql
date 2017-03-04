@@ -24,7 +24,7 @@ oriented to:
  - large organization that has many team of different backgrounds
  - microservice infrastructures
  - iot
- - rapid development thanks to the auto component creation
+ - rapid development thanks to the auto component creation (this mean that omniql can create entery or partial application, with all the bussiness logic in it), manage github, repos and creation of docker containers 
 
 Why is this project needed?
 
