@@ -1,4 +1,4 @@
-## OmniQl
+## omniql
 
 omniql a new way to create schemas, for large project, that can be used in any devices, internally or externally, 
 collaborate and create api and export them to the world
