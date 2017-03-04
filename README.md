@@ -5,27 +5,31 @@ collaborate and create api and export them to the world
 
 
 Keys aspect:
- - we use crqs (Command and Query Responsibility Segregation) if you don't know what is this please read https://martinfowler.com/bliki/CQRS.html
- - all the communication should be over nats or kafka or similar software (centrifuge for the frontend)
- - it should use the open api 3 spec https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md, like initial guide when is possible
+ - it uses crqs (Command and Query Responsibility Segregation) if you don't know what is this please read https://martinfowler.com/bliki/CQRS.html
+ - all the communication is planned to be  over nats or kafka or similar software (centrifuge for the frontend)
+ - it should try to use the open api 3 spec https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md, like a guide when is possible
  - also we should use the google api design spec https://cloud.google.com/apis/design/
+ - large inspired by kubernetes and swagger 
 
 what omniql should offer:
- - creation of schemas in a nice interface
- - auto-generation of code for diferent programming languages
+ - creation of schemas in a nice interface (api and ui)
+ - auto-generation of code for different programming languages and provide the tooling to do this
+ - 
 
 plan:
  - do an initial version, working
  - build omniql on omniql
  
-clients:
+oriented to:
  - large organization that has many team of different backgrounds
  - microservice infrastructures
  - iot
+ - rapid development thanks to the auto component creation
 
 Why is this project needed?
 
-is still difficult to create good schema with the current tech, if we have a good tool for create schemas, this will decrease the work needed to get things done, 
+is still difficult to create good schema, maintain track of them,  share between the team  with the current tech,
+if we have a good tool for create schemas, this will decrease the work needed to get things done, 
 in organization that worry about infrastructure evolution. more easy work, more people happy
 
 
@@ -36,12 +40,13 @@ similar software:
 - grpc
 
 
-## spec 
+# spec 
 
-this is the spec for the version V1Alpha, it will change almost every time possible nothing that is written here is the last word
+this is the spec for the version V1Alpha, it will change almost every time possible, nothing that is written here is the last word
 
+## Resources 
 
-### V1Alpha:
+#### V1Alpha:
 
 things that should be ready for the first alpha release
 
@@ -59,7 +64,7 @@ things that should be ready for the first alpha release
  - [V1Alpha.Component](V1Alpha/Component.md)
 
 
-### V1Next
+####- V1Next
 
 things that would be  nice to have 
 
@@ -74,6 +79,9 @@ things that would be  nice to have
  - [V1Alpha.Organization](V1Alpha/Organization.md)
  - [V1Alpha.Team](V1Alpha/Team.md)
  - [V1Alpha.Users](V1Alpha/Users.md)
+
+## Code generation
+
 
 
 
