@@ -52,7 +52,7 @@ tings that should be ready for the first alpha release
  - [V1Alpha.Resource](V1Alpha/Resource.md)
  - [V1Alpha.Command](V1Alpha/Command.md)
  - [V1Alpha.Query](V1Alpha/Query.md)
- - [V1Alpha.Query](V1Alpha/Subscription.md)
+ - [V1Alpha.Subscription](V1Alpha/Subscription.md)
  - [V1Alpha.Component](V1Alpha/Component.md)
 
 
