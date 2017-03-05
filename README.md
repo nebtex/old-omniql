@@ -5,7 +5,7 @@ collaborate and create api and export them to the world
 
 
 Keys aspect:
- - it uses crqs (Command and Query Responsibility Segregation) if you don't know what is this please read https://martinfowler.com/bliki/CQRS.html
+ - it uses cqrs (Command and Query Responsibility Segregation) if you don't know what is this please read https://martinfowler.com/bliki/CQRS.html
  - all the communication is planned to be  over nats or kafka or similar software (centrifuge for the frontend)
  - it should try to use the open api 3 spec https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md, like a guide when is possible
  - also we should use the google api design spec https://cloud.google.com/apis/design/
@@ -14,7 +14,7 @@ Keys aspect:
 what omniql should offer:
  - creation of schemas in a nice interface (api and ui)
  - auto-generation of code for different programming languages and provide the tooling to do this
- - autogenaration of entiry docker containers that can handle well known patterns like crud, subscriptions, permissions
+ - auto-generation of entry docker containers that can handle well known patterns like crud, subscriptions, permissions
 
 plan:
  - do an initial version, working
