@@ -1,6 +1,6 @@
 
 <img src="omni.png" />
-
+<hr >
 
 omniql is opinionated way to create schemas and define commons operation over them, is intended to be useful  for large project where teams of diferent background converge, omniql schemas  can be used in any devices, for internal  or external application, collaborate and api creations, api versioning and export them to the world.
 
