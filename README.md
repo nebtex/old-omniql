@@ -1,11 +1,15 @@
+
+<img src="omni.png" />
+
 ## omniql
+
 
 omniql a new way to create schemas, for large project, that can be used in any devices, internally or externally, 
 collaborate and create api and export them to the world
 
 
 Keys aspect:
- - it uses cqrs (Command and Query Responsibility Segregation) if you don't know what is this please read https://martinfowler.com/bliki/CQRS.html
+ - it uses cqs (Command and Query Responsibility Segregation) if you don't know what is this please read https://martinfowler.com/bliki/CQRS.html
  - all the communication is planned to be  over nats or kafka or similar software (centrifuge for the frontend)
  - it should try to use the open api 3 spec https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md, like a guide when is possible
  - also we should use the google api design spec https://cloud.google.com/apis/design/
